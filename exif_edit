@@ -27,8 +27,6 @@ class exif():
 
     def start(self):
         _path = input("请输入图片路径：").strip()
-        #path = re.sub("\\","/",_path)
-        #_path = r"C:\\Users\Administrator\Desktop\测试集"
         self.imgSave(_path+'\\')
 
 
